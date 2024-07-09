@@ -10,6 +10,7 @@ Historically sequences were short and thus fasta files included a line break eve
 
 This directory includes the following invalid files:
 
+* Readme.md: not a fasta file
 * emptyfile.fa: an empty file
 * emptysequence.fa: one sequence doesn't contain any characters
 * emptysequence2.fa: same but followed by another sequence
@@ -19,3 +20,5 @@ This directory includes the following invalid files:
 * eofinname.fa: the file ends in the sequence name
 * snpgenie.fa: empty sequence name
 * spaceinseq.fa: the sequence shouldn't contain whitespace
+* phiX.hexcodes.fasta: non-printable characters
+* phiX.pipes.fasta: a | (pipe) at the beginning of a line
