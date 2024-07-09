@@ -9,6 +9,5 @@ There is a lot that can go wrong here. The coordinates might be invalid, the lin
 
 This directory contains the following files:
 
-* emptyfile.bed: it's empty Jim
 * coords.bed: a file with various invalid coordinates
 * eof.bed: according to the spec a line has to end with with a newline. In extension this file is empty.
